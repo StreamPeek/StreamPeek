@@ -16,7 +16,7 @@
 
 !README.md
 !AGENTS.md
-!.agent/
+!.agent/**
 !LICENSE
 
 # !Makefile

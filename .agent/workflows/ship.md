@@ -26,6 +26,4 @@ This workflow automates the process of branching, committing, and opening a PR u
 
 6. **GitHub PR**: Use the GitHub CLI to create the PR and provide the link.
    - Command: `gh pr create --title "{{commit_message}}" --body "Automated PR via Antigravity Agent" --web`
-
-7. **Auto-Merge**: Wait for checks to pass and merge.
-   - Command: `gh pr merge --auto --squash --delete-branch`
+   - Note: "The PR is now open. Please review and merge it manually in the browser."

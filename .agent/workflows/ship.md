@@ -25,5 +25,5 @@ This workflow automates the process of branching, committing, and opening a PR u
    - Command: `git push origin feat/{{branch_name}}`
 
 6. **GitHub PR**: Use the GitHub CLI to create the PR and provide the link.
-   - Command: `gh pr create --title "{{commit_message}}" --body "Automated PR via Antigravity Agent" --web`
+   - Command: `gh pr create --title "{{commit_message}}" --body "Automated PR via Antigravity Agent: {{pr_description}}" --web`
    - Note: "The PR is now open. Please review and merge it manually in the browser."
